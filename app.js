@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 //文章模块
-app.use("/api/artical", cate);
+app.use("/api/artical", artical);
 
 
 
